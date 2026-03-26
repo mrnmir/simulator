@@ -1,0 +1,6 @@
+.venv
+.venv_test
+uv.lock
+__pycache__/
+simulator.egg-info/
+docs/build/
