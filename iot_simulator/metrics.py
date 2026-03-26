@@ -70,7 +70,7 @@ def plot_connections(history: list[dict]):
 
     plt.figure(figsize=(8, 4))
     plt.bar([f"Station {sid}" for sid in station_ids], [totals[sid] for sid in station_ids])
-    plt.xlabel("Base Station")
+    plt.xlabel("Base Stations")
     plt.ylabel("Total Device-Connections")
     plt.title("Cumulative Connections Per Station")
     plt.tight_layout()
@@ -90,7 +90,7 @@ def plot_positions(history: list[dict], stations: list):
 
     # Plot each device's trajectory
     n_devices = len(history[0]["positions"])
-    colors = plt.cm.tab10(range(n_devices))
+    colors = plt.cm.tab20(range(n_devices))
 
     for i in range(n_devices):
         xs = [r["positions"][i][0] for r in history]
