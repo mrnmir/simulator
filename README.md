@@ -2,7 +2,7 @@
 
 [![Documentation Status](https://readthedocs.org/projects/iot-simulator/badge/?version=latest)](https://iot-simulator.readthedocs.io/en/latest/?badge=latest)
 
-A network simulator for Ambient IoT networks, featuring base stations, user devices, and communication links. It serves as a testbed for evaluating signal propagation and connectivity before real-life hardware execution.
+A simplistic network simulator for Ambient IoT networks, featuring base stations, user devices, and communication links. It serves as a testbed for evaluating signal propagation and connectivity before real-life hardware execution.
 
 ## Features
 
